@@ -78,9 +78,13 @@ def file_browser(dir):
 # Execute Function
 file_browser('.')
 
+# Convert HTML to TXT
+quote = '"'
+html2txt = ('lynx --dump ') + quote + go_path + quote + (' > output.txt')
+os.system(html2txt)
+
 # Convert Other Book Formats To TXT
 book2txt = ('pandoc -o output.txt ')
-quote = '"'
 pandoc = book2txt + quote + go_path + quote
 os.system(pandoc)
 
