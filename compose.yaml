@@ -1,0 +1,8 @@
+services:
+  piper-tts:
+    build: .
+    stdin_open: true
+    tty: true
+    restart: always
+    volumes:
+      - /home/piper:/home/piper
