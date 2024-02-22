@@ -14,3 +14,4 @@
 - [Pandoc](https://github.com/jgm/pandoc?tab=readme-ov-file)
 - [Python](https://www.python.org/)
 - [Lame](https://github.com/zlargon/lame)
+- [SoX](https://github.com/chirlu/sox)
