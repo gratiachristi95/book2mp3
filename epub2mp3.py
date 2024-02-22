@@ -113,7 +113,7 @@ for filename in os.listdir(directory):
 os.system('rm -rf ./files/file*')
 
 # Combine All WAV Files To One File
-os.syatem("sox './files/*' ./files/long.wav")
+os.system("sox './files/*' ./files/long.wav")
 
 # Convert WAV To MP3 Speech Format
 os.system("lame -b 448 ./files/long.wav output.mp3")
