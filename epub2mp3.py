@@ -106,7 +106,7 @@ directory = './files'
 for filename in os.listdir(directory):
     f = os.path.join(directory, filename)
     if os.path.isfile(f):
-        output = "cat -A " + f +" |piper --model en_US-lessac-medium -d ./files"
+        output = "cat -A " + f +" |piper --model en_US-ryan-high -d ./files"
         os.system(output)
 
 # Remove all TXT Files from Files Folder
