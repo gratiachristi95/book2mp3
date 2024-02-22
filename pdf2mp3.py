@@ -77,13 +77,8 @@ def file_browser(dir):
 # Execute Function
 file_browser('.')
 
-# Convert Other Book Formats To TXT
+# Convert PDF To TXT 
 quote = '"'
-#book2txt = ('pandoc -o output.txt ')
-#pandoc = book2txt + quote + go_path + quote
-#os.system(pandoc)
-
-# Convert PDF To TXT
 pdf2txt = str('pdftotext ')
 outputdottxt = str(' output.txt')
 pdftotext = pdf2txt + quote +  go_path + quote + outputdottxt
